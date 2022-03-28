@@ -1,6 +1,12 @@
 {
     "name": "agrandesr/router",
     "description": "This is a composer package to create quick an easy an API.",
+    "keywords": [
+        "router",
+        "http",
+        "rest",
+        "api"
+    ],
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,5 +20,12 @@
             "email": "agrandesr@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0"
+        }
+    }
 }
