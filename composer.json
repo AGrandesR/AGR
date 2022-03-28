@@ -1,11 +1,11 @@
 {
-    "name": "agrandesr/agr",
+    "name": "agr/router",
     "description": "This is a composer package to create quick an easy an API.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Agrandesr\\Agr\\": "agr/"
+            "Agr\\Router\\": "src/"
         }
     },
     "authors": [
