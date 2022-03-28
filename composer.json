@@ -1,6 +1,6 @@
 {
     "name": "agrandesr/router",
-    "description": "This is a composer package to create quick an easy an API.",
+    "description": "A.G.R is a composer library designed and designed to create APIs in PHP in a fast and efficient way. It does not have the idea of being a great framework at the height of symfony and laravel but rather something light and that whoever uses it can inspect and understand. The idea is to work the entire path system from a single json file.",
     "keywords": [
         "router",
         "http",
