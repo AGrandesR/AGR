@@ -1,5 +1,5 @@
 <?php
-namespace AgrandesR\Agr;
+namespace AgrandesR;
 
 use Exception;
 

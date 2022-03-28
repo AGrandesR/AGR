@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\Router\\": "src/"
+            "AgrandesR": "src/"
         }
     },
     "authors": [
