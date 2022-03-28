@@ -1,0 +1,19 @@
+{
+    "name": "agrandesr/agr",
+    "description": "This is a composer package to create quick an easy an API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agrandesr\\Agr\\": "agr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agrandesr",
+            "email": "agrandesr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
