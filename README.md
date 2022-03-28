@@ -4,11 +4,11 @@ A.G.R is a composer library designed and designed to create APIs in PHP in a fas
 
 
 
-### Pre-requisitos 📋
+## Prerequisites 📋
 
 You will need to have installed composer in your computer.
 
-### Instalation 🔧
+## Instalation 🔧
 
 You need to require the package to your project.
 
@@ -129,6 +129,10 @@ class Test {
 }
 ```
 
+-----
+EXTRA
+-----
+-----
 
 <!--
 ## Deployment 📦 
@@ -156,17 +160,12 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 * **A.Grandes.R** - *Main worker* - [AGrandesR](https://github.com/AGrandesR)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+You can also look at the list of all [contributors] (https://github.com/your/project/contributors) who have participated in this project.
 
-## Licencia 📄
+## License 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+This project is under the License MIT - read the file [LICENSE.md](LICENSE.md) for more details.
 
 ## Thanks to: 🎁
 
 * [Villanuevand](https://github.com/Villanuevand) for his incredible [template](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a) for documentation 😊
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
