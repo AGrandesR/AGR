@@ -63,7 +63,7 @@ class Router {
             //Execute the render option
             if($isFound){
                 //Evaluamos los parámetros!!!
-                $err=$this->checkParameters($this->route_data['req_parameters']);
+                $err=$this->checkParameters($this->route_data['req_parameters']?? []);
                 if(empty($err)) $this->render();
                 else $this->errorMessage($err);
             } else {
