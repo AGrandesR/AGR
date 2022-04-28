@@ -152,7 +152,7 @@ class Router {
 
     protected function checkParameters(array $requiredParameters=[]) : array {
         //$requiredParameters = $this->route_data['req_parameters'];
-        if(empty($requiredParameters)) return true;
+        if(empty($requiredParameters)) return [];
         $idx=0;
         $requiredErrors=[];
         foreach($requiredParameters as $parameterData){
