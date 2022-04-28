@@ -129,6 +129,34 @@ class Test {
 }
 ```
 
+## Required parameters
+One of the most annoying things is to have to validated parameters. With Router you can do quickly adding req_parameters as a method option!
+
+``` json
+{
+    "routes": {
+        "hi": {
+            "GET": {
+                "req_parameters":[
+                    "id",
+                    "product",
+                    {
+                        "name":"email",
+                        "regex":"/\w{1,}\@\w{1,}\.{2,5}/"
+                    }
+                ]
+                "render":{
+                    "type":"json",
+                    "content":{
+                        "test":"test with object"
+                    }
+                }
+            }
+        }
+    }
+}
+```
+Like you can look the required parameters can be the string of the parameter name o an object in which you can point the name and the regex that have to validate the parameter value.
 -----
 EXTRA
 -----
