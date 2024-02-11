@@ -13,7 +13,7 @@ You will need to have installed composer in your computer.
 You need to require the package to your project.
 
 ``` bash
-composer require agrandesr/router
+composer require agrandesr/agrouter
 ```
 
 Next, you can use in your code. We encourage to use in the root file index.php. It is important to write under the auoload require.
